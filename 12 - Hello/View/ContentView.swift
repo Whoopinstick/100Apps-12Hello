@@ -10,12 +10,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("Hello")
+            .font(.headline)
+        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct EnglishPreview: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct SpanishPreview: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+        .environment(\.locale, .init(identifier: "es"))
+    }
+}
+
+struct FrenchPreview: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+        .environment(\.locale, .init(identifier: "fr"))
+    }
+}
+
+struct ItalianPreview: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+        .environment(\.locale, .init(identifier: "it"))
     }
 }
