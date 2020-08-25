@@ -56,12 +56,10 @@
 		0A8E69D224F49986007D9B13 /* 12 - Hello */ = {
 			isa = PBXGroup;
 			children = (
-				0A8E69D324F49986007D9B13 /* AppDelegate.swift */,
-				0A8E69D524F49986007D9B13 /* SceneDelegate.swift */,
-				0A8E69D724F49986007D9B13 /* ContentView.swift */,
 				0A8E69D924F49989007D9B13 /* Assets.xcassets */,
-				0A8E69DE24F49989007D9B13 /* LaunchScreen.storyboard */,
 				0A8E69E124F49989007D9B13 /* Info.plist */,
+				0A8E69E724F499AA007D9B13 /* Delegate */,
+				0A8E69E824F499B0007D9B13 /* View */,
 				0A8E69DB24F49989007D9B13 /* Preview Content */,
 			);
 			path = "12 - Hello";
@@ -73,6 +71,24 @@
 				0A8E69DC24F49989007D9B13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A8E69E724F499AA007D9B13 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A8E69D324F49986007D9B13 /* AppDelegate.swift */,
+				0A8E69D524F49986007D9B13 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		0A8E69E824F499B0007D9B13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A8E69DE24F49989007D9B13 /* LaunchScreen.storyboard */,
+				0A8E69D724F49986007D9B13 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
