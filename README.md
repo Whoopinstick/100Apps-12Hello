@@ -6,5 +6,5 @@ App 12 of my 100 App Challenge - https://github.com/Whoopinstick/100AppsChalleng
 
 Written with SwiftUI
 
-This simple app says Hello to the user in their native language.  It utilizes the Internationalization and LocalizedString features in Swift.
+This simple app says Hello to the user in their native language.  The app name on the home screen is also localized.  The app utilizes the Internationalization and LocalizedString features in Swift.
 ![Hello](./Hello.gif)
